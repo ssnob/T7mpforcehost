@@ -132,7 +132,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\External\External.csproj">
+    <ProjectReference Include="..\..\External\External.csproj">
       <Project>{810bdf68-87bb-45a2-ac4f-87643045bf4c}</Project>
       <Name>External</Name>
     </ProjectReference>
