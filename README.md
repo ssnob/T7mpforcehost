@@ -4,7 +4,7 @@
  Makes you host of a online Multiplayer game
  this allows you to set other players stats.
  
-![Screenshot](Force Host.png)
+https://github.com/ssnob/T7mpforcehost/blob/main/Force%20Host.png
  
  # How
 Download the t7mpforcehost.zip from the [releases](https://github.com/ssnob/T7mpforcehost/releases/tag/V1) tab
