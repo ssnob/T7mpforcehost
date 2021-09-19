@@ -11,8 +11,6 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using static ExternalTestingUtility.Cheats.BlackOps3.ClassSetType;
-using static ExternalTestingUtility.Cheats.BlackOps3.loadoutClass_t;
 
 namespace ExternalTestingUtility
 {

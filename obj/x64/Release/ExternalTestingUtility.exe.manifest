@@ -54,14 +54,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ExternalTestingUtility.exe" size="27104">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ExternalTestingUtility.exe" size="24032">
       <assemblyIdentity name="ExternalTestingUtility" version="1.0.0.0" language="neutral" processorArchitecture="amd64" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>asrahYq7EOwrKj+nMQ8Pq/3tCpltH6+a8He/tiP8868=</dsig:DigestValue>
+        <dsig:DigestValue>hVRC5hxi9iPBe0EGErovgzDQeOMyFvKBSyrB5F/Lo/I=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
