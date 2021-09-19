@@ -31,8 +31,8 @@ namespace ExternalTestingUtility
         {
             this.ControlContents = new System.Windows.Forms.Panel();
             this.InnerForm = new Refract.UI.Core.Controls.CBorderedForm();
-            this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
             this.InnerForm.ControlContents.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -47,7 +47,7 @@ namespace ExternalTestingUtility
             // 
             // InnerForm
             // 
-            this.InnerForm.BackColor = System.Drawing.Color.Crimson;
+            this.InnerForm.BackColor = System.Drawing.Color.Orange;
             // 
             // InnerForm.ControlContents
             // 
@@ -66,29 +66,31 @@ namespace ExternalTestingUtility
             this.InnerForm.Name = "InnerForm";
             this.InnerForm.Size = new System.Drawing.Size(245, 90);
             this.InnerForm.TabIndex = 0;
-            this.InnerForm.TitleBarTitle = "Force Host";
+            this.InnerForm.TitleBarTitle = "Kill BO3";
             this.InnerForm.UseTitleBar = true;
             this.InnerForm.Load += new System.EventHandler(this.InnerForm_Load);
             // 
-            // button2
-            // 
-            this.button2.Location = new System.Drawing.Point(123, 12);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(108, 27);
-            this.button2.TabIndex = 1;
-            this.button2.Text = "Force Start";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
-            // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(9, 12);
+            this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button1.Location = new System.Drawing.Point(10, 12);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(108, 27);
+            this.button1.Size = new System.Drawing.Size(106, 32);
             this.button1.TabIndex = 0;
             this.button1.Text = "Force Host";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // button2
+            // 
+            this.button2.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button2.Location = new System.Drawing.Point(122, 12);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(106, 32);
+            this.button2.TabIndex = 1;
+            this.button2.Text = "Start Game";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click_1);
             // 
             // MainForm
             // 

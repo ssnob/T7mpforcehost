@@ -26,12 +26,12 @@ namespace Refract.UI.Core.Singletons
             UIThemeInfo theme = new UIThemeInfo();
             theme.BackColor = Color.FromArgb(28, 28, 28);
             theme.TextColor = Color.WhiteSmoke;
-            theme.AccentColor = Color.Crimson;
+            theme.AccentColor = Color.Orange;
             theme.TitleBarColor = Color.FromArgb(36, 36, 36);
             theme.ButtonFlatStyle = FlatStyle.Flat;
             theme.ButtonHoverColor = Color.FromArgb(50, 50, 50);
             theme.LightBackColor = Color.FromArgb(36, 36, 36);
-            theme.ButtonActive = Color.Crimson;
+            theme.ButtonActive = Color.Orange;
             theme.TextInactive = Color.Gray;
             return theme;
         }

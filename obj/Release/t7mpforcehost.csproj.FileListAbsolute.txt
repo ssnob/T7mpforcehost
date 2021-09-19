@@ -24,3 +24,8 @@ F:\Code\C#\Bo3\External-master\t7mpforcehost\T7mpforcehost\obj\Release\t7mpforce
 F:\Code\C#\Bo3\External-master\t7mpforcehost\T7mpforcehost\obj\Release\t7mpforcehost.csproj.CopyComplete
 F:\Code\C#\Bo3\External-master\t7mpforcehost\T7mpforcehost\obj\Release\ExternalTestingUtility.exe
 F:\Code\C#\Bo3\External-master\t7mpforcehost\T7mpforcehost\obj\Release\ExternalTestingUtility.pdb
+F:\Code\C#\Bo3\External-master\t7mpforcehost\T7mpforcehost\bin\Release\Irony.dll
+F:\Code\C#\Bo3\External-master\t7mpforcehost\T7mpforcehost\bin\Release\ExternalTestingUtility.exe.manifest
+F:\Code\C#\Bo3\External-master\t7mpforcehost\T7mpforcehost\bin\Release\ExternalTestingUtility.application
+F:\Code\C#\Bo3\External-master\t7mpforcehost\T7mpforcehost\obj\Release\ExternalTestingUtility.exe.manifest
+F:\Code\C#\Bo3\External-master\t7mpforcehost\T7mpforcehost\obj\Release\ExternalTestingUtility.application

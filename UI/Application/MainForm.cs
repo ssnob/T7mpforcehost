@@ -54,15 +54,7 @@ namespace ExternalTestingUtility
         private void button2_Click(object sender, EventArgs e)
         {
 
-            new Task(() => {
-                BlackOps3.Dvar_SetFromStringByName("party_minPlayers", "1");
-                BlackOps3.Dvar_SetFromStringByName("lobbyDedicatedSearchSkip", "1");
-                BlackOps3.Dvar_SetFromStringByName("lobbySearchTeamSize", "1");
-                BlackOps3.Dvar_SetFromStringByName("lobbySearchSkip", "1");
-                BlackOps3.Dvar_SetFromStringByName("lobbyMergeDedicatedEnabled", "0");
-                BlackOps3.Dvar_SetFromStringByName("lobbyMergeEnabled", "0");
-                BlackOps3.Cbuf_AddText("lobbyLaunchGame"); }).Start();
-         }
+        }
     
         private void button1_Click(object sender, EventArgs e)
         {
@@ -75,6 +67,19 @@ namespace ExternalTestingUtility
              BlackOps3.Dvar_SetFromStringByName("lobbyMergeEnabled", "0");
          }).Start();
         
+        }
+
+        private void button2_Click_1(object sender, EventArgs e)
+        {
+            new Task(() => {
+                BlackOps3.Dvar_SetFromStringByName("party_minPlayers", "1");
+                BlackOps3.Dvar_SetFromStringByName("lobbyDedicatedSearchSkip", "1");
+                BlackOps3.Dvar_SetFromStringByName("lobbySearchTeamSize", "1");
+                BlackOps3.Dvar_SetFromStringByName("lobbySearchSkip", "1");
+                BlackOps3.Dvar_SetFromStringByName("lobbyMergeDedicatedEnabled", "0");
+                BlackOps3.Dvar_SetFromStringByName("lobbyMergeEnabled", "0");
+                BlackOps3.Cbuf_AddText("lobbyLaunchGame");
+            }).Start();
         }
     }
 }
