@@ -24,6 +24,7 @@ namespace ExternalTestingUtility
             InitializeComponent();
             UIThemeManager.OnThemeChanged(this, OnThemeChanged_Implementation);
             this.SetThemeAware();
+            Text = "Force Host";
             MaximizeBox = true;
             MinimizeBox = true;
         }
